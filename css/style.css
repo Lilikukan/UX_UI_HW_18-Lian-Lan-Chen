@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* section */
+body {font-family: 'Poppins', sans-serif;}
+
+.mySkills {
+    padding: 50px 0;
+    text-align: center;
+    
+  }
+  
+  .mySkills h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #30770E;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .flexContainer > div {
+    width: 250px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .flexContainer > div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .flexContainer > div h3 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+ 
+  /* myproject */
+  .myProjects {
+    padding: 0 120px;
+    margin-bottom: 120px;
+  }
+
+  .myProjects h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #30770E;
+    text-align: center;}
+
+  
+  
+  .workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .workGrid div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 30px;
+  }
+  
+  .workGrid img {
+    border-radius: 20px;
+    width: 420px;
+    height: 337px;
+    object-fit: cover;
+    
+  }
+  
+  .workGrid h4 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .workGrid p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .workGrid button {
+    width: 146px;
+    height: 43px;
+    background: #30770E;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 10px;
+    border: #30770E;
+    
+  }
+  
+  .workGrid button:hover {
+    background-color: #fff;
+    color: #00b894;
+    border: 2px solid #00b894;
+  }
+  
+  
+
+  
+  
+  h4, p:first-of-type {
+    margin-top: 20
+    text-align: left;}
+    .workGrid div > *:not(:first-child) {
+        margin-top: 10px;
+
+    .workGrid h4, .workGrid p, .workGrid button {
+        text-align: left;
+      }
+      
+
+  @media only screen and (max-width: 768px) {
+    .workGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
